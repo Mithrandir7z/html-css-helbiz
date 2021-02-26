@@ -18,6 +18,7 @@
     margin-top: 18px;
 }
 
+
 .logo img {
     padding-top: 15px;
 }
@@ -40,8 +41,19 @@
     border-right: none;
 }
 
-.burger-menu {
-    text-align: center;
+
+.burger-menu-icon {
+    margin-top: 13px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.burger-menu-icon span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin-top: 3px;
 }
 
 .jumbotron {
@@ -59,5 +71,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    display: inline-block;
 }
 /*FINE HEADER*/
