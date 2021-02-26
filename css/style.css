@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*INIZIO HEADER*/
+.menu-left ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+.menu-left li {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 30px;
+    margin-top: 18px;
+}
+
+.logo img {
+    padding-top: 15px;
+}
+
+.menu-right ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+.menu-right li {
+    display: inline-block;
+    margin-top: 20px;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: solid black 1px;
+}
+
+.menu-right li:last-child {
+    border-right: none;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url("img/HelbizBanner.jpg");
+    height: 400px;
+}
+/*FINE HEADER*/
