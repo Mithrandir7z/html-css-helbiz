@@ -1,7 +1,13 @@
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*COMMON*/
+img {
+    width: 100%;
 }
 
 
@@ -21,6 +27,8 @@
 
 .logo img {
     padding-top: 15px;
+    height: 40px;
+    width: auto;
 }
 
 .menu-right ul {
@@ -42,6 +50,7 @@
 }
 
 
+/*inizio burger menu*/
 .burger-menu-icon {
     margin-top: 13px;
     padding-bottom: 20px;
@@ -55,7 +64,10 @@
     background-color: black;
     margin-top: 3px;
 }
+/*fine burger menu*/
 
+
+/*inizio jumbotron*/
 .jumbotron {
     background-image: url("../img/hero-bg.jpg");
     width: 100%;
@@ -74,22 +86,31 @@
     color: white;
     display: inline-block;
 }
+
+.jumbotron__text img {
+    height: 35px;
+    width: auto;
+}
+/*fine jumbotron*/
 /*FINE HEADER*/
 
-/*MAIN*/
 
+
+
+/*MAIN*/
 #products {
     padding: 20px 0;
 }
 
-/*TEST*/
-#products [class*="col-"] {
-    background-color: yellow;
-    height: 300px;
-}
 
 .col_inner {
-    background-color: red;
-    height: 100%;
-    padding: 10px;
+    padding: 10px; 
+}
+
+.col_content {
+    text-align: center;
+}
+
+.col_content a {
+    text-decoration: none;
 }
