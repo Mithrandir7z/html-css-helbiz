@@ -75,3 +75,21 @@
     display: inline-block;
 }
 /*FINE HEADER*/
+
+/*MAIN*/
+
+#products {
+    padding: 20px 0;
+}
+
+/*TEST*/
+#products [class*="col-"] {
+    background-color: yellow;
+    height: 300px;
+}
+
+.col_inner {
+    background-color: red;
+    height: 100%;
+    padding: 10px;
+}
